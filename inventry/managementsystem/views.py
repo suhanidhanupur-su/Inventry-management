@@ -64,10 +64,11 @@ def register(request):
             'Your account has been created successfully.',
             settings.EMAIL_HOST_USER,
             [user.email],
-            fail_silently=False,
+            fail_silently=True,
         )
 
         login(request, user)
         return redirect('product_list')
 
     return render(request, 'register.html', {'form': form})
+  
