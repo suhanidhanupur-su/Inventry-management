@@ -136,5 +136,3 @@ EMAIL_HOST_PASSWORD = 'hhvtdgqeihueblnn'
 
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
-
-
