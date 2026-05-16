@@ -132,6 +132,7 @@ urlpatterns = [
     path('delete/<int:pk>/', views.delete_product, name='delete_product'),
 
     path('register/', views.register, name='register'),
+    path('send-test-email/', views.send_test_email, name='send_test_email'),
 
     path('login/', LoginView.as_view(template_name='login.html'), name='login'),
 

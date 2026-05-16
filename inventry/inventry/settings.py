@@ -132,7 +132,9 @@ EMAIL_USE_TLS = False
 
 EMAIL_HOST_USER = 'suhanidhanupur@gmail.com'
 
-EMAIL_HOST_PASSWORD = 'hhvtdgqeihueblnn'
+EMAIL_HOST_PASSWORD = 'hhvt dgqe ihue blnn'
+
+EMAIL_RECEIPT_ADDRESS = 'movaugoigecoi-2436@yopmail.com'
 
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
